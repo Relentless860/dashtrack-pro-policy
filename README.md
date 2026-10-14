@@ -4,7 +4,7 @@ Public support and privacy information for DashTrack Pro.
 
 - Website: https://relentless860.github.io/dashtrack-pro-policy/
 - Privacy policy: https://relentless860.github.io/dashtrack-pro-policy/privacy.html
-- Support contact: Dylanadamuska1995@gmail.com
+- Support contact: dashtrackpro@gmail.com
 
 ## Edit in VS Code
 
