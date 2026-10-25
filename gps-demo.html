@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>GPS demonstration | DashTrack Pro</title>
+  <style>
+    :root { color-scheme: dark; font: 17px/1.6 system-ui,sans-serif; background:#0f172a; color:#f1f5f9; }
+    body { max-width:800px; margin:0 auto; padding:32px 20px; }
+    h1 { line-height:1.2; } a { color:#93c5fd; } p,li { color:#cbd5e1; }
+    video { display:block; width:100%; max-height:75vh; margin:24px 0; background:#000; border:1px solid #475569; border-radius:12px; }
+    .notice { padding:16px; border:1px solid #475569; border-radius:12px; background:#1e293b; }
+    footer { border-top:1px solid #334155; margin-top:32px; padding-top:16px; }
+  </style>
+</head>
+<body>
+  <header><a href="./">DashTrack Pro</a><h1>Optional GPS mileage demonstration</h1></header>
+  <p class="notice">Owner-recorded Android demonstration from version 1.6.3. This is a short, edited excerpt, not one continuous session or a recording of version 1.6.4. Version 1.6.4 retains this GPS flow and fixes an unrelated End Shift rendering crash.</p>
+  <video controls playsinline preload="metadata" aria-label="DashTrack GPS disclosure, enable flow and ongoing notification">
+    <source src="media/gps-demo-1.6.3-excerpts.mp4" type="video/mp4">
+    Your browser does not support embedded video. <a href="media/gps-demo-1.6.3-excerpts.mp4">Open the MP4 demonstration</a>.
+  </video>
+  <p><a href="media/gps-demo-1.6.3-excerpts.mp4">Open or download the demonstration video</a></p>
+  <h2>What the recording shows</h2>
+  <ol>
+    <li>An existing active shift and the driver's action to enable GPS.</li>
+    <li>The prominent disclosure explaining precise location, continued tracking with another app or the screen locked, local processing, battery use and controls.</li>
+    <li>Agreement and enabling GPS, followed by the tracking state and visible in-app Pause GPS and Stop GPS controls.</li>
+    <li>A separate excerpt showing the ongoing Android GPS notification.</li>
+  </ol>
+  <p>Android permissions had already been granted on this device; this excerpt does not show first-run system permission dialogs, a Pause/Stop state transition or a locked-screen accuracy test. Unrelated information is masked in the video. No location route is shown.</p>
+  <h2>How the feature works</h2>
+  <p>GPS tracking is optional and starts only when the driver enables it during an active shift. The location foreground service estimates distance while the driver uses another app or locks the screen. App and notification controls allow the driver to pause or stop tracking. Tracking does not automatically start for a new shift or after restoring a backup.</p>
+  <p>Position fixes are processed on the device; DashTrack does not save or upload route history. GPS can miss miles. Drivers must review their actual final odometer and business miles. Controls should only be used while safely parked.</p>
+  <footer><a href="privacy.html">Privacy policy</a> · <a href="mailto:dashtrackpro@gmail.com">dashtrackpro@gmail.com</a></footer>
+</body>
+</html>
