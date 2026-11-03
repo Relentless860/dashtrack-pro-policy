@@ -12,7 +12,7 @@
 <body><main>
   <a href="index.html">← DashTrack Pro</a>
   <h1>Delete your DashTrack Pro account</h1>
-  <p class="date">Updated October 26, 2026</p>
+  <p class="date">Updated November 3, 2026</p>
   <p>This page covers the optional email/password sign-in account in account-enabled Android 1.6.5 and later testing builds. It does not announce a public app release. It is not a request to delete your Google or delivery-platform account.</p>
   <section class="card" aria-labelledby="request-heading">
     <h2 id="request-heading">Request deletion without the app</h2>
@@ -29,7 +29,11 @@
   <p>Delete individual records in DashTrack, or clear app data in device settings to remove local installation data. Export anything you need first. Exports and backups you shared elsewhere are not remotely deleted by this request.</p>
   <h2>Delete from inside DashTrack</h2>
   <p>While safely parked with no active shift, open <strong>Driver settings → Account → Delete account</strong>. Enter your current password, type <strong>DELETE</strong> and confirm. Guest tracking remains available without creating another account.</p>
-  <p>Account creation and deletion do not start or cancel billing in this testing build; paid subscriptions are not enabled.</p>
+  <h2 id="subscription-data">Subscription data and cancellation</h2>
+  <p>In current free beta builds, paid subscriptions are not enabled and RevenueCat connections remain disabled. If you use a future billing-enabled version, RevenueCat subscription records are separate from the optional Firebase email account. Deleting the Firebase account or local app data does not automatically delete RevenueCat records.</p>
+  <p>To request deletion of DashTrack's RevenueCat customer records, email <a href="mailto:dashtrackpro@gmail.com?subject=DashTrack%20Pro%20subscription%20data%20deletion">dashtrackpro@gmail.com</a> with the subject <strong>DashTrack Pro subscription data deletion</strong>. You do not need to reinstall the app or delete your Firebase account first. Explain that the request concerns subscription data. Support will help verify ownership and locate the correct anonymous subscriber record; a Google Play order reference may be needed. Do not send passwords, verification links, payment card details, private keys or work-record backups.</p>
+  <p>After ownership verification, support can request removal of the associated RevenueCat customer record. Necessary service/security/legal retention and Google's own purchase records may remain under the providers' policies. A later SDK connection, purchase or restore can create records again. This request does not remotely erase your device records.</p>
+  <p><strong>Deletion does not cancel billing.</strong> Uninstalling, Firebase account deletion and RevenueCat customer deletion do not cancel a Google Play subscription. To stop renewal, use <a href="https://play.google.com/store/account/subscriptions">Google Play subscription management</a>. See the <a href="subscription-terms.html">subscription terms</a> and <a href="privacy.html#subscriptions">subscription privacy details</a>.</p>
   <p><a href="privacy.html#accounts">Account privacy details</a> · <a href="privacy.html">Full privacy policy</a></p>
 </main></body>
 </html>
